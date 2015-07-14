@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    width: 100%;
+    background-color: black;
+}
+
+/*导航栏*/
+.head-daohang-container{
+    height: 68px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.head .head-daohang-container .head-ul1{
+    list-style: none;
+}
+.head .head-daohang-container .head-ul1 li{
+    color: white;
+    font-size: 13px;
+    font-weight: 900;
+    float: left;
+    cursor: pointer;
+    padding: 0px 15px;
+    margin-top: 47px;
+}
+.head .head-daohang-container .head-ul1 li:hover{
+    border-bottom: 5px solid deepskyblue;
+}
+.style_head-ul1-li-selected{/*被选中的列项呈现的效果（设置边距无效果？？）*/
+    border-bottom: 5px solid deepskyblue;
+}
+
+.head .head-daohang-container .head-daohang-img{
+    position: absolute;
+    z-index: 3;
+}
+.head .head-daohang-container .head-ul2{
+    list-style: none;
+}
+.head .head-daohang-container .head-ul2 li{
+    float: right;
+    font-size: 14px;
+    color: #999;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+.head .head-daohang-container .head-ul2 li:hover{
+    cursor: pointer;
+    color: deepskyblue;
+}
+
+/*图片切换*/
+.head .head-show-imgs{
+    clear: both;
+    width: 100%;
+    position: relative;
+}
+.head .head-show-imgs .head-show-img{
+    width: 100%;
+    position: absolute;
+}
+.head .head-show-imgs .head-show-img:hover{
+    cursor: pointer;
+}
+.head .head-jiantou .last-jiantou, .next-jiantou{
+    font-size: 100px;
+    color: white;
+    background-color: rgba( 87, 87, 87, 0.3);/*透明度*/
+    display: none;
+    position: absolute;
+    z-index: 3;
+}
+.head .head-show-imgs .head-jiantou .last-jiantou, .next-jiantou:hover{
+    cursor: pointer;
+}
+.head .head-show-imgs .head-jiantou .last-jiantou{
+    top: 110px;
+    left: 0px;
+}
+.head .head-show-imgs .head-jiantou .next-jiantou{
+    top: 110px;
+    right: 0px;
+}
+

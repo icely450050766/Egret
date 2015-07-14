@@ -1,0 +1,15 @@
+.tail{
+    position: relative;
+}
+.tail p{
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+
+    position: absolute;
+    right: 0px;
+}
+
+ .tail .tail_p a:hover{
+    cursor: pointer;
+}
